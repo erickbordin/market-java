@@ -16,7 +16,7 @@ public class Compra {
 	double getTotalValue() {
 		double somar = 0;
 		for(Item x : itens) {
-			somar += x.produto.preco * x.quantidade;
+			somar += i.produto.preco * i.quantidade;
 		}
 		return somar;
 	}
